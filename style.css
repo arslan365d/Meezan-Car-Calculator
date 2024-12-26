@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  background-color: #F7F7F7;
+}
+.sub-heading{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #701E7D;
+}
+.main-heading-font {
+  font-family: 'Bungee', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding-top: 10px;
+  color: #701E7D;
+}
+.heading__container{
+  width: 70%;
+  margin-inline: auto;
+  padding-top: 40px;
+  padding: 20px;
+}
+
+.calculator__container{
+  max-width: 1180px;
+  margin-inline: auto;
+  padding-inline: 20px;
+  padding-block: 15px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+  position: relative;
+}
+.card{
+ background-color: white;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ padding-bottom: 50px;
+ border: 2px dashed grey;
+}
+.card h2{
+  font-size: 1.4rem;
+  font-family: 'Bungee', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #701E7D;
+}
+.card .dropdown{
+  width: 90%;
+  padding: 8px;
+}
+
+.card .dropdown select{
+  width: 100%;
+  padding-block: 10px;
+  padding-inline:5px ;
+  border-radius: 7px;
+  font-size: 1rem;
+}
+
+footer{
+  background-color: #701E7D;
+  color: white;
+  text-align: center;
+  padding-block: 15px;
+  margin-top: 45px;
+}
+footer p{
+  font-family: 'Bungee', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer p span{
+  font-family: inherit;
+  color: hotpink;
+}
+
+button{
+  background-color: #701E7D;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  padding-block: 15px;
+  font-size: 1.2rem;
+
+}
+.btn-div{
+  width: 90%;
+  padding: 8px;
+}
+.card1{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+}
+.card2{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+}
+.card3{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+}
+/* template card css */
+.template__h2{
+  color: #701E7D;
+  font-size: 1.4rem;
+  font-family: 'Bungee', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid gray;
+  padding-bottom: 5px;
+  gap: 10px;
+}
+.first__sec,.second__sec,.third__sec{
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+  flex-direction: column;
+}
+.first__sec,.second__sec,.third__sec h4{
+  text-align: center;
+}
+.sec__heading{
+  font-weight: 900;
+  padding-bottom: 8px;
+}
+
+.first__sec h3{
+text-align: center;
+font-size: 1.2rem;
+font-weight: 800;
+padding-bottom: 5px;
+}
+.terms{
+  text-align: center;
+  padding-bottom: 18px;
+}
+.afterClickUI__div{
+  padding-inline: 20px;
+}
+.dropdowns_div,.dropdowns_div2,.dropdowns_div3{
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+button:active
+{
+  background-color: #701e7db8;
+}
+@media (max-width:940px) {
+   .calculator__container{
+     grid-template-columns: 1fr 1fr;
+   }
+}
+@media (max-width:660px) {
+   .calculator__container{
+     grid-template-columns: 1fr;
+     width: 90%;
+   }
+   .main-heading-font {
+    font-family: 'Bungee', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-top: 10px;
+    color: #701E7D;
+    font-size: 1.3rem;
+  }
+  .sub-heading{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #701E7D;
+  }
+}
+
+@media (max-width:399px) {
+  .main-heading-font {
+    font-size: 1.3rem;
+  }
+  .calculator__container{
+   width: 100%;
+  }
+}

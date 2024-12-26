@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Civic Oriel",
+    "price": "8659000",
+    "engine": "1498",
+    "make": "honda"
+  },
+  {
+    "name": "Civic RS",
+    "price": "9899000",
+    "engine": "1498",
+    "make": "honda"
+  },
+  {
+    "name": "City 1.2L CVT",
+    "price": "4689000",
+    "engine": "1199",
+    "make": "honda"
+  },
+  {
+    "name": "City 1.5L ASPIRE CVT",
+    "price": "5849000",
+    "engine": "1497",
+    "make": "honda"
+  },
+  {
+    "name": "Accord 1.5L VTEC Turbo",
+    "price": "22990000",
+    "engine": "1500",
+    "make": "honda"
+  },
+  {
+    "name": "Corolla Altis 1.6",
+    "price": "6559000",
+    "engine": "1598",
+    "make": "indus"
+  },
+  {
+    "name": "Corolla Grande 1.8L",
+    "price": "7549000",
+    "engine": "1798",
+    "make": "indus"
+  },
+  {
+    "name": "Fortuner Legender",
+    "price": "18999000",
+    "engine": "2755",
+    "make": "indus"
+  },
+  {
+    "name": "Hilux Revo Rocco",
+    "price": "14419000",
+    "engine": "2755",
+    "make": "indus"
+  },
+  {
+    "name": "Land Cruiser ZX",
+    "price": "120000000",
+    "engine": "3500",
+    "make": "indus"
+  },
+  {
+    "name": "Alto VXL AGS",
+    "price": " 3045000",
+    "engine": "658",
+    "make": "suzuki"
+  },
+  {
+    "name": "Swift GLX CVT",
+    "price": "4719000",
+    "engine": "1197",
+    "make": "suzuki"
+  },
+  {
+    "name": "Cultus Auto",
+    "price": "4546000",
+    "engine": "998",
+    "make": "suzuki"
+  },
+  {
+    "name": "Wagon R AGS",
+    "price": "3741000",
+    "engine": "998",
+    "make": "suzuki"
+  },
+  {
+    "name": "Every VXR",
+    "price": "2799000",
+    "engine": "658",
+    "make": "suzuki"
+  },
+  {
+    "name": "Picanto AT",
+    "price": "3850000",
+    "engine": "998",
+    "make": "kia"
+  },
+  {
+    "name": "Sportage Black Edition",
+    "price": "9000000",
+    "engine": "1999",
+    "make": "kia"
+  },
+  {
+    "name": "Sportage AWD",
+    "price": "8470000",
+    "engine": "1999",
+    "make": "kia"
+  },
+  {
+    "name": "Stonic",
+    "price": "5500000",
+    "engine": "1368",
+    "make": "kia"
+  },
+  {
+    "name": "Grand Carnival",
+    "price": "16000000",
+    "engine": "3500",
+    "make": "kia"
+  },
+  {
+    "name": "Elantra GLS",
+    "price": "7180000",
+    "engine": "1999",
+    "make": "hyundai"
+  },
+  {
+    "name": "Tucson AWD",
+    "price": "8909000",
+    "engine": "1999",
+    "make": "hyundai"
+  },
+  {
+    "name": "Sonata 2.0",
+    "price": "9979000",
+    "engine": "1999",
+    "make": "hyundai"
+  },
+  {
+    "name": "Sonata 2.5",
+    "price": "11205000",
+    "engine": "2497",
+    "make": "hyundai"
+  },
+  {
+    "name": "Santa Fe Signature",
+    "price": "13899000",
+    "engine": "1598",
+    "make": "hyundai"
+  }
+]

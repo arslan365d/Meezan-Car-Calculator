@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="heading__container">
+    <h3 class="sub-heading">Car Ijarah Calculator</h3>
+    <h1 class="main-heading-font">Use our Calculators to Compare Different Cars & Payment Plans!</h1>
+  </div>
+
+  <div class="calculator__container">
+    <div class="card" id="card1">
+      <h2>Option 1</h2>
+      <div class="card1">
+        <div class="dropdowns_div" data-id="1">
+          <div class="dropdown dropdown1" id="car__field1">
+
+            <select name="" id="">
+              <option value="v">Select New Or Old</option>
+              <option value="new">New car</option>
+              <option value="old">Old car</option>
+            </select>
+
+          </div>
+          <div class="dropdown dropdown1" id="car__vendor1">
+            <select name="" id="">
+              <option value="">Select vendor</option>
+              <option value="honda">Honda Cars</option>
+              <option value="indus">Indus Motors</option>
+              <option value="kia">Kia Motors</option>
+              <option value="hyundai">Hyundai Motors</option>
+              <option value="suzuki">Pak Suzuki</option>
+            </select>
+          </div>
+          <div class="dropdown dropdown1" id="car__name1">
+            <select name="" id="">
+              <option value="">Select car</option>
+            </select>
+          </div>
+          <div class="dropdown dropdown1" id="car__tenure1">
+            <select name="" id="">
+              <option value="">Tenure</option>
+              <option value="1">1 Year</option>
+              <option value="2">2 Year</option>
+              <option value="3">3 Year</option>
+              <option value="4">4 Year</option>
+              <option value="5">5 Year</option>
+            </select>
+          </div>
+          <div class="dropdown dropdown1" id="car__deposit1">
+            <select name="" id="">
+              <option value="">Deposit</option>
+              <option value="15">15%</option>
+              <option value="20">20%</option>
+              <option value="25">25%</option>
+              <option value="30">30%</option>
+              <option value="35">35%</option>
+              <option value="40">40%</option>
+              <option value="45">45%</option>
+              <option value="50">50%</option>
+            </select>
+          </div>
+          <div class="dropdown dropdown1" id="car__residential1">
+            <select name="" id="">
+              <option value="">Residential Value (%)</option>
+              <option value="15">15%</option>
+              <option value="20">20%</option>
+              <option value="25">25%</option>
+              <option value="30">30%</option>
+              <option value="35">35%</option>
+              <option value="40">40%</option>
+              <option value="45">45%</option>
+              <option value="50">50%</option>
+            </select>
+          </div>
+          <div class="dropdown dropdown1" id="car__delievery1">
+            <select name="" id="">
+              <option value="">Car Delievery</option>
+              <option value="immediate">Immediate</option>
+              <option value="booking">Booking</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="btn-div">
+        <button id="btn1" class="calculate__btn" data-card="1">Calculate</button>
+      </div>
+    </div>
+    <div class="card" id="card2">
+      <h2>Option 2</h2>
+      <div class="card2">
+        <div class="dropdowns_div2" data-id="2">
+          <div class="dropdown dropdown2" id="car__field2">
+
+            <select name="" id="">
+              <option value="">Select New or Old</option>
+              <option value="new">New car</option>
+              <option value="old">Old car</option>
+            </select>
+
+          </div>
+          <div class="dropdown dropdown2" id="car__vendor2">
+            <select name="" id="">
+              <option value="">Select vendor</option>
+              <option value="honda">Honda Cars</option>
+              <option value="indus">Indus Motors</option>
+              <option value="kia">Kia Motors</option>
+              <option value="hyundai">Hyundai Motors</option>
+              <option value="suzuki">Pak Suzuki</option>
+            </select>
+          </div>
+          <div class="dropdown dropdown2" id="car__name2">
+            <select name="" id="">
+              <option value="">Select car</option>
+            </select>
+          </div>
+          <div class="dropdown dropdown2" id="car__tenure2">
+            <select name="" id="">
+              <option value="">Tenure</option>
+              <option value="1">1 Year</option>
+              <option value="2">2 Year</option>
+              <option value="3">3 Year</option>
+              <option value="4">4 Year</option>
+              <option value="5">5 Year</option>
+            </select>
+          </div>
+          <div class="dropdown dropdown2" id="car__deposit2">
+            <select name="" id="">
+              <option value="">Deposit</option>
+              <option value="15">15%</option>
+              <option value="20">20%</option>
+              <option value="25">25%</option>
+              <option value="30">30%</option>
+              <option value="35">35%</option>
+              <option value="40">40%</option>
+              <option value="45">45%</option>
+              <option value="50">50%</option>
+            </select>
+          </div>
+          <div class="dropdown dropdown1" id="car__residential2">
+            <select name="" id="">
+              <option value="">Residential Value (%)</option>
+              <option value="15">15%</option>
+              <option value="20">20%</option>
+              <option value="25">25%</option>
+              <option value="30">30%</option>
+              <option value="35">35%</option>
+              <option value="40">40%</option>
+              <option value="45">45%</option>
+              <option value="50">50%</option>
+            </select>
+          </div>
+          <div class="dropdown dropdown2" id="car__delievery2">
+            <select name="" id="">
+              <option value="">Car Delievery</option>
+              <option value="immediate">Immediate</option>
+              <option value="booking">Booking</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="btn-div">
+        <button id="btn2" class="calculate__btn" data-card="2">Calculate</button>
+      </div>
+    </div>
+    <div class="card" id="card3">
+      <h2>Option 3</h2>
+      <div class="card3">
+        <div class="dropdowns_div3" data-id="3">
+          <div class="dropdown dropdown3" id="car__field3">
+
+            <select name="" id="">
+              <option value="">Select new or old</option>
+              <option value="new">New car</option>
+              <option value="old">Old car</option>
+            </select>
+
+          </div>
+          <div class="dropdown dropdown3" id="car__vendor3">
+            <select name="" id="">
+              <option value="">Select vendor</option>
+              <option value="honda">Honda Cars</option>
+              <option value="indus">Indus Motors</option>
+              <option value="kia">Kia Motors</option>
+              <option value="hyundai">Hyundai Motors</option>
+              <option value="suzuki">Pak Suzuki</option>
+            </select>
+          </div>
+          <div class="dropdown dropdown3" id="car__name3">
+            <select name="" id="">
+              <option value="">Select car</option>
+            </select>
+          </div>
+          <div class="dropdown dropdown3" id="car__tenure3">
+            <select name="" id="">
+              <option value="">Tenure</option>
+              <option value="1">1 Year</option>
+              <option value="2">2 Year</option>
+              <option value="3">3 Year</option>
+              <option value="4">4 Year</option>
+              <option value="5">5 Year</option>
+            </select>
+          </div>
+          <div class="dropdown dropdown3" id="car__deposit3">
+            <select name="" id="">
+              <option value="">Deposit</option>
+              <option value="15">15%</option>
+              <option value="20">20%</option>
+              <option value="25">25%</option>
+              <option value="30">30%</option>
+              <option value="35">35%</option>
+              <option value="40">40%</option>
+              <option value="45">45%</option>
+              <option value="50">50%</option>
+            </select>
+          </div>
+          <div class="dropdown dropdown1" id="car__residential3">
+            <select name="" id="">
+              <option value="">Residential Value (%)</option>
+              <option value="15">15%</option>
+              <option value="20">20%</option>
+              <option value="25">25%</option>
+              <option value="30">30%</option>
+              <option value="35">35%</option>
+              <option value="40">40%</option>
+              <option value="45">45%</option>
+              <option value="50">50%</option>
+            </select>
+          </div>
+          <div class="dropdown dropdown3" id="car__delievery3">
+            <select name="" id="">
+              <option value="">Car Delievery</option>
+              <option value="immediate">Immediate</option>
+              <option value="booking">Booking</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="btn-div">
+        <button id="btn3" class="calculate__btn" data-card="3">Calculate</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Copyright © 2024 <span>Arslan365d </span>all rights reserved.</p>
+  </footer>
+
+
+  <!-- Html code after the "Calculate" button clicked -->
+  <template id="afterClickUI">
+    <div class="afterClickUI__div">
+      <h2 class="template__h2">Option</h2>
+      <div class="first__sec">
+        <h4 class="sec__heading">VEHICLE DETAILS</h4>
+        <h3 id="carName">${car name and cc}</h3>
+        <div class="flex">
+          <h4>PRICE OF VEHICLE</h4>
+          <h4 id="carPrice"></h4>
+        </div>
+      </div>
+      <div class="second__sec">
+        <h4 class="sec__heading">UPFRONT PAYMENT</h4>
+        <div class="flex" id="residential__sec">
+          <h4>Residential Value</h4>
+          <h4 id="residential"></h4>
+        </div>
+        <div class="flex">
+          <h4>Security Deposit</h4>
+          <h4 id="securityDeposit">
+          </h4>
+        </div>
+        <div class="flex">
+          <h4>Processing Fee</h4>
+          <h4>Rs. 3,100
+          </h4>
+        </div>
+        <div class="flex">
+          <h4>Total Upfront</h4>
+          <h4 id="upfront">Rs. 1,042,600</h4>
+        </div>
+      </div>
+      <div class="third__sec">
+        <h4 class="sec__heading">MONTHLY PAYMENT</h4>
+        <div class="flex">
+          <h4>Number of Months</h4>
+          <h4 id="tenure">12</h4>
+        </div>
+        <div class="flex">
+          <h4>Rent per Month</h4>
+          <h4 id="rentPerMonth">Rs. 344,737</h4>
+        </div>
+      </div>
+      <p class="terms">Calculation includes rental and takaful</p>
+
+      <div class="btn-div">
+        <button id="redoBtn">Redo</button>
+      </div>
+    </div>
+  </template>
+
+
+  <!-- Html code after the "Redo" button clicked of Card 1-->
+  <template id="redoClickUI">
+    <h2>Option 1</h2>
+    <div class="card1">
+      <div class="dropdowns_div" data-id="1">
+        <div class="dropdown dropdown1" id="car__field1">
+
+          <select name="" id="">
+            <option value="">Select New Or Old</option>
+            <option value="new">New car</option>
+            <option value="old">Old car</option>
+          </select>
+
+        </div>
+        <div class="dropdown dropdown1" id="car__vendor1">
+          <select name="" id="">
+            <option value="">Select vendor</option>
+            <option value="honda">Honda Cars</option>
+            <option value="indus">Indus Motors</option>
+            <option value="kia">Kia Motors</option>
+            <option value="hyundai">Hyundai Motors</option>
+            <option value="suzuki">Pak Suzuki</option>
+          </select>
+        </div>
+        <div class="dropdown dropdown1" id="car__name1">
+          <select name="" id="">
+            <option value="">Select car</option>
+          </select>
+        </div>
+        <div class="dropdown dropdown1" id="car__tenure1">
+          <select name="" id="">
+            <option value="">Tenure</option>
+            <option value="1">1 Year</option>
+            <option value="2">2 Year</option>
+            <option value="3">3 Year</option>
+            <option value="4">4 Year</option>
+            <option value="5">5 Year</option>
+          </select>
+        </div>
+        <div class="dropdown dropdown1" id="car__deposit1">
+          <select name="" id="">
+            <option value="">Deposit</option>
+            <option value="15">15%</option>
+            <option value="20">20%</option>
+            <option value="25">25%</option>
+            <option value="30">30%</option>
+            <option value="35">35%</option>
+            <option value="40">40%</option>
+            <option value="45">45%</option>
+            <option value="50">50%</option>
+          </select>
+        </div>
+        <div class="dropdown dropdown1" id="car__residential1">
+          <select name="" id="">
+            <option value="">Residential Value (%)</option>
+            <option value="15">15%</option>
+            <option value="20">20%</option>
+            <option value="25">25%</option>
+            <option value="30">30%</option>
+            <option value="35">35%</option>
+            <option value="40">40%</option>
+            <option value="45">45%</option>
+            <option value="50">50%</option>
+          </select>
+        </div>
+        <div class="dropdown dropdown1" id="car__delievery1">
+          <select name="" id="">
+            <option value="">Car Delievery</option>
+            <option value="immediate">Immediate</option>
+            <option value="booking">Booking</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="btn-div">
+      <button id="btn1" class="calculate__btn" data-card="1">Calculate</button>
+    </div>
+  </template>
+
+
+  <!-- Html code after the "Redo" button clicked of Card 2-->
+  <template id="redoClickUI2">
+    <h2>Option 2</h2>
+    <div class="card2">
+      <div class="dropdowns_div2" data-id="2">
+        <div class="dropdown dropdown1" id="car__field2">
+
+          <select name="" id="">
+            <option value="v">Select New Or Old</option>
+            <option value="new">New car</option>
+            <option value="old">Old car</option>
+          </select>
+
+        </div>
+        <div class="dropdown dropdown1" id="car__vendor2">
+          <select name="" id="">
+            <option value="">Select vendor</option>
+            <option value="honda">Honda Cars</option>
+            <option value="indus">Indus Motors</option>
+            <option value="kia">Kia Motors</option>
+            <option value="hyundai">Hyundai Motors</option>
+            <option value="suzuki">Pak Suzuki</option>
+          </select>
+        </div>
+        <div class="dropdown dropdown1" id="car__name2">
+          <select name="" id="">
+            <option value="">Select car</option>
+          </select>
+        </div>
+        <div class="dropdown dropdown1" id="car__tenure2">
+          <select name="" id="">
+            <option value="">Tenure</option>
+            <option value="1">1 Year</option>
+            <option value="2">2 Year</option>
+            <option value="3">3 Year</option>
+            <option value="4">4 Year</option>
+            <option value="5">5 Year</option>
+          </select>
+        </div>
+        <div class="dropdown dropdown1" id="car__deposit2">
+          <select name="" id="">
+            <option value="">Deposit</option>
+            <option value="15">15%</option>
+            <option value="20">20%</option>
+            <option value="25">25%</option>
+            <option value="30">30%</option>
+            <option value="35">35%</option>
+            <option value="40">40%</option>
+            <option value="45">45%</option>
+            <option value="50">50%</option>
+          </select>
+        </div>
+        <div class="dropdown dropdown1" id="car__residential2">
+          <select name="" id="">
+            <option value="">Residential Value (%)</option>
+            <option value="15">15%</option>
+            <option value="20">20%</option>
+            <option value="25">25%</option>
+            <option value="30">30%</option>
+            <option value="35">35%</option>
+            <option value="40">40%</option>
+            <option value="45">45%</option>
+            <option value="50">50%</option>
+          </select>
+        </div>
+        <div class="dropdown dropdown1" id="car__delievery2">
+          <select name="" id="">
+            <option value="">Car Delievery</option>
+            <option value="immediate">Immediate</option>
+            <option value="booking">Booking</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="btn-div">
+      <button id="btn1" class="calculate__btn" data-card="2">Calculate</button>
+    </div>
+  </template>
+
+  <!-- Html code after the "Redo" button clicked of Card 3-->
+  <template id="redoClickUI3">
+    <h2>Option 3</h2>
+    <div class="card3">
+      <div class="dropdowns_div3" data-id="3">
+        <div class="dropdown dropdown1" id="car__field3">
+
+          <select name="" id="">
+            <option value="v">Select New Or Old</option>
+            <option value="new">New car</option>
+            <option value="old">Old car</option>
+          </select>
+
+        </div>
+        <div class="dropdown dropdown1" id="car__vendor3">
+          <select name="" id="">
+            <option value="">Select vendor</option>
+            <option value="honda">Honda Cars</option>
+            <option value="indus">Indus Motors</option>
+            <option value="kia">Kia Motors</option>
+            <option value="hyundai">Hyundai Motors</option>
+            <option value="suzuki">Pak Suzuki</option>
+          </select>
+        </div>
+        <div class="dropdown dropdown1" id="car__name3">
+          <select name="" id="">
+            <option value="">Select car</option>
+          </select>
+        </div>
+        <div class="dropdown dropdown1" id="car__tenure3">
+          <select name="" id="">
+            <option value="">Tenure</option>
+            <option value="1">1 Year</option>
+            <option value="2">2 Year</option>
+            <option value="3">3 Year</option>
+            <option value="4">4 Year</option>
+            <option value="5">5 Year</option>
+          </select>
+        </div>
+        <div class="dropdown dropdown1" id="car__deposit3">
+          <select name="" id="">
+            <option value="">Deposit</option>
+            <option value="15">15%</option>
+            <option value="20">20%</option>
+            <option value="25">25%</option>
+            <option value="30">30%</option>
+            <option value="35">35%</option>
+            <option value="40">40%</option>
+            <option value="45">45%</option>
+            <option value="50">50%</option>
+          </select>
+        </div>
+        <div class="dropdown dropdown1" id="car__residential3">
+          <select name="" id="">
+            <option value="">Residential Value (%)</option>
+            <option value="15">15%</option>
+            <option value="20">20%</option>
+            <option value="25">25%</option>
+            <option value="30">30%</option>
+            <option value="35">35%</option>
+            <option value="40">40%</option>
+            <option value="45">45%</option>
+            <option value="50">50%</option>
+          </select>
+        </div>
+        <div class="dropdown dropdown1" id="car__delievery3">
+          <select name="" id="">
+            <option value="">Car Delievery</option>
+            <option value="immediate">Immediate</option>
+            <option value="booking">Booking</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="btn-div">
+      <button id="btn1" class="calculate__btn" data-card="3">Calculate</button>
+    </div>
+  </template>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
